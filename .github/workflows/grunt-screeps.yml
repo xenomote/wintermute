@@ -1,6 +1,7 @@
 name: Grunt upload to Screeps
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - "main" 
