@@ -6,8 +6,6 @@ module.exports = function(grunt) {
         grunt.fail.fatal('email and token options must be set!')
     }
 
-    console.log(email, token)
-
     grunt.loadNpmTasks('grunt-screeps');
 
     grunt.initConfig({

@@ -31,4 +31,4 @@ jobs:
       run: |
         npm install grunt
         npm install grunt-screeps
-        grunt screeps --email=$SCREEPS_EMAIL --token=SCREEPS_TOKEN
+        grunt screeps --email=$SCREEPS_EMAIL --token=$SCREEPS_TOKEN
