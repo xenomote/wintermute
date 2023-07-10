@@ -8,15 +8,12 @@ function leaveEdge(c) {
     if (c.pos.x <= 1) {
         c.move(RIGHT)
     }
-
     if (c.pos.x >= 48) {
         c.move(LEFT)
     }
-
     if (c.pos.y <= 1) {
         c.move(BOTTOM)
     }
-    
     if (c.pos.y >= 48) {
         c.move(TOP)
     }
