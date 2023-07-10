@@ -28,5 +28,6 @@ jobs:
         SCREEPS_EMAIL: ${{ secrets.SCREEPS_EMAIL }}
         SCREEPS_TOKEN: ${{ secrets.SCREEPS_TOKEN }}
       run: |
+        npm install grunt
         npm install grunt-screeps
-        npx grunt screeps --email=$SCREEPS_EMAIL --token=SCREEPS_TOKEN
+        grunt screeps --email=$SCREEPS_EMAIL --token=SCREEPS_TOKEN
